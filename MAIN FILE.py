@@ -76,7 +76,7 @@ CREATE TABLE IF NOT EXISTS register_f_club (
     FOREIGN KEY (club_id) REFERENCES club(club_id)
 )
 """)
-result = pyfiglet.figlet_format("SCHOOL CLUB MANAGMENT SYSTEM", font = "digital" )
+result = pyfiglet.figlet_format("SCHOOL CLUB MANAGEMENT SYSTEM", font = "digital" )
 print(result)
 while True:
     z=input("ARE YOU A USER OR ADMIN(U/A):")
